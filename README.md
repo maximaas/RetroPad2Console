@@ -33,7 +33,7 @@ I bought several SNES to PC adapters to make use of its case and snes female con
 My work uses USB connector as the output in order to adapt both Xbox and GC.
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8318.JPG)<br/>
-Interface cable. Female USB connector to Xbox and GC controller interface.
+Interface cable. Female USB connector to Xbox and GC controller port.
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8319.JPG)
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8320.JPG)<br/>
@@ -51,7 +51,32 @@ The software part is standard Arduino sketch codes, can be compiled and uploaded
 BTW, I'm using Sloeber IDE(http://eclipse.baeyens.it/) to help keeping my Arduino projects well organized.
 
 <H2>Interface cable wiring</H2>
-TBD
+
+![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/images/usb-a.png)
+
+Here's a picture of male usb connector, I named the 4 pins to U1/U2/U3/U4, then wired them to the consoles' controller port.
+
+<ul>
+<li>Xbox</li>
+</ul>
+The adapter uses the standard usb pinout and V-USB library to communicate with Xbox which makes the wiring things very simple.
+
+![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/images/xbox-socket.png)
+
+Just follow the image above.
+
+<ul>
+<li>Gamecube</li>
+</ul>
+Gamecube only have one data line to carry the signal which connected to PD2(D+ pin) in my case.
+
+![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/images/gc-socket.png)
+
+It is the view of the controller port on Gamecube.<br/>
+pin1   --> U1<br/>
+pin2   --> U3<br/>
+pin4&5 --> U4<br/>
+The D- line is left empty.<br/>
 
 <H2>Known Issues</H2>
 <ul>
