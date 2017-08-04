@@ -25,6 +25,7 @@ A very powerful adapter, I directly used the Xbox pad communication code from th
 
 <H2>Pictures</H2>
 
+![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8322.JPG)
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8313.JPG)<br/>
 I bought several SNES to PC adapters to make use of its case and snes female connector.
 
@@ -32,20 +33,23 @@ I bought several SNES to PC adapters to make use of its case and snes female con
 My work uses USB connector as the output in order to adapt both Xbox and GC.
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8318.JPG)<br/>
-Female USB connector to Xbox and GC controller interface.
+Interface cable. Female USB connector to Xbox and GC controller interface.
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8319.JPG)
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8320.JPG)<br/>
 The PCB I designed with the size fits with the SNES to PC adapter case. And a bit of hand craft work should be done to accommodate the Saturn and USB connectors.
 
-<H2>Usage</H2>
+<H2>Build the Adapter</H2>
 This adapter is actually a minimum Arduino based on ATMEGA8-16PU. It receives the SNES/Saturn pad signals then interprete and send them to the target according to Xbox or GC protocol.
 
+![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8323.JPG)
 The eagle files of the hardware part are included. The PCB have both ICSP and Serial interfaces, bootloader and firmware can be programed via them.
 
 The software part is standard Arduino sketch codes, can be compiled and uploaded with Arduino IDE.
 
 BTW, I'm using Sloeber IDE(http://eclipse.baeyens.it/) to help keeping my Arduino projects well organized.
+
+<H2>Interface cable wiring</H2>
 
 <H2>Known Issues</H2>
 <ul>
