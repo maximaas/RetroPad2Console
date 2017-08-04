@@ -43,6 +43,7 @@ The PCB I designed with the size fits with the SNES to PC adapter case. And a bi
 This adapter is actually a minimum Arduino based on ATMEGA8-16PU. It receives the SNES/Saturn pad signals then interprete and send them to the target according to Xbox or GC protocol.
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8323.JPG)
+
 The eagle files of the hardware part are included. The PCB have both ICSP and Serial interfaces, bootloader and firmware can be programed via them.
 
 The software part is standard Arduino sketch codes, can be compiled and uploaded with Arduino IDE.
@@ -50,6 +51,7 @@ The software part is standard Arduino sketch codes, can be compiled and uploaded
 BTW, I'm using Sloeber IDE(http://eclipse.baeyens.it/) to help keeping my Arduino projects well organized.
 
 <H2>Interface cable wiring</H2>
+TBD
 
 <H2>Known Issues</H2>
 <ul>
