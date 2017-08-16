@@ -21,6 +21,7 @@ https://github.com/brownan/Gamecube-N64-Controller<br/>
 I directly used the gamecube communication code from this project with just a little modification. It helps me greatly, without this I will never done my work.
 
 http://www.brunofreitas.com/node/41<br/>
+https://github.com/bootsector/usb-retropad-adapter<br/>
 A very powerful adapter, I directly used the Xbox pad communication code from this project or I will never got my project work on original xbox.
 
 <H2>Pictures</H2>
