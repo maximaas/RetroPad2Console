@@ -39,6 +39,33 @@ Interface cable. Female USB connector to Xbox and GC controller port.
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8320.JPG)<br/>
 The PCB I designed with the size fits with the SNES to PC adapter case. And a bit of hand craft work should be done to accommodate the Saturn and USB connectors.
 
+<H2>Parts</H2>
+
+| Parts    | Model          | Remark                 |
+|:---------|:---------------|:-----------------------|
+| MCU      | ATMEGA8-16PU   |                        |
+| CRYSTAL  | 16 MHz         |                        |
+| R_RST    | 120 Ohm        |                        |
+| R_LED    | 220 Ohm        |                        |
+| R_USB    | 1.5K Ohm       |                        |
+| R_D+     | 68 Ohm         |                        |
+| R_D-     | 68 Ohm         |                        |
+| C1       | 22 pf          |                        |
+| C2       | 22 pf          |                        |
+| C3       | 4.7 uf         |                        |
+| D1       | 1N4148         |                        |
+| D2       | 1N4148         |                        |
+| SWITCH   | Reset Switch   |                        |
+| LED      | LED            |                        |
+| USB-A    | /              | USB-A Male connector   |
+| SFC      | /              | SFC conenctor          |
+| SS       | /              | SS connector           |
+|          |                |                        |
+| GC Cable | /              | NGC extesion cable     |
+| XB Cable | /              | XBOX extension cable   |
+| USB      | /              | USB-A female connector |
+
+
 <H2>Build the Adapter</H2>
 This adapter is actually a minimum Arduino based on ATMEGA8-16PU. It receives the SNES/Saturn pad signals then interprete and send them to the target according to Xbox or GC protocol.
 
