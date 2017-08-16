@@ -71,7 +71,11 @@ This adapter is actually a minimum Arduino based on ATMEGA8-16PU. It receives th
 
 ![image](https://github.com/maximaas/RetroPad2Console/blob/master/pics/photo/IMG_8323.JPG)
 
-The eagle files of the hardware part are included. The PCB have both ICSP and Serial interfaces, bootloader and firmware can be programed via them.
+The eagle files of the hardware part are included. The PCB have both ICSP and Serial interfaces on it, for bootloader and firmware programming.
+
+With the parts assembled, upload the "optiboot_atmega8" bootloader by ICSP which can be found in Arduino IDE releases. 
+
+The firmware can be uploaded by either ICSP or Serial interface. For Serial way, the reset button need to be hit right after you clicked the upload button in Arduino IDE.
 
 The software part is standard Arduino sketch codes, can be compiled and uploaded with Arduino IDE.
 
