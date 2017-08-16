@@ -43,7 +43,7 @@ The PCB I designed with the size fits with the SNES to PC adapter case. And a bi
 
 | Parts    | Model          | Remark                 |
 |:---------|:---------------|:-----------------------|
-| MCU      | ATMEGA8-16PU   |                        |
+| MCU      | ATMEGA8-16PU   | Can be replaced with ATMEGA328p for more program memory                       |
 | CRYSTAL  | 16 MHz         |                        |
 | R_RST    | 120 Ohm        |                        |
 | R_LED    | 220 Ohm        |                        |
@@ -56,7 +56,7 @@ The PCB I designed with the size fits with the SNES to PC adapter case. And a bi
 | D1       | 1N4148         |                        |
 | D2       | 1N4148         |                        |
 | SWITCH   | Reset Switch   |                        |
-| LED      | LED            |                        |
+| LED      | Any 5v LED     |                        |
 | USB-A    | /              | USB-A Male connector   |
 | SFC      | /              | SFC conenctor          |
 | SS       | /              | SS connector           |
