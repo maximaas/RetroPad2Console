@@ -6,7 +6,7 @@ Copyright (C) 2015,2017 Maximaas<br/>
 Version 1.0 - completed on 2015.12.09
 
 <H2>About</H2>
-Original Xbox and Nintendo Gamecube(Europe version) are good emulator platforms with RGB video support, which makes it possible to play retro games on a RGB capable CRT display. But with weird controller scheme, the default Xbox and GC controller are disasters for most retro games. So I came up with the idea of making an adapter to let me use SNES and Saturn pads on these consoles. Saturn pad have six buttons on the right, it's perfect for MegaDrive and 2D-Fighting games while SNES pad is for NES/SNES/GBP and other games.
+Original Xbox and Nintendo Gamecube(Europe version) are good emulator platforms with RGB video support, which makes it possible to play retro games on a RGB capable CRT display. But with weird controller scheme, the default Xbox and GC controller are disasters for most retro games. So I came up with the idea of making an adapter to let me use SNES and Saturn pads on these consoles. Saturn pad has six buttons on the right, it's perfect for MegaDrive and 2D-Fighting games while SNES pad is for NES/SNES/GBP and other games.
 
 <H2>References</H2>
 Before I start, I googled a lot of resources to help me accomplish this project (see blow). Greate thanks to all these authors.<br/><br/>
